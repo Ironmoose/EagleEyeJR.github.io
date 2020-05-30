@@ -1,0 +1,206 @@
+*{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+    
+    header {
+         background-image: url(images/BG.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.logo{
+    height: 80px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.main-nav{
+    float: left;
+    margin-top: 40px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 80%;
+    font-weight: 100px;
+    background-color: black;
+     transition: width 2s linear 1s;
+}
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+    color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+.main-nav-s li a:hover{
+    background-color: red;
+}
+.clearfix:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+.main-content-header{
+     width: 1180px;
+    position: absolute;  
+ top: 17%;
+    left: 50%;
+    font-size:60%;
+  padding-top: 12px;
+   transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.second{
+    width: 1180px;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    color: white;
+    font-size: 240%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+ 
+}
+h2{color: white;
+    font-size: 80%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+.btn-btn-full{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+transition background-color: 0.2s, border 0.2s, color: 0.2;;;;
+ border: 1px solid;
+ color: white;
+}
+.btn-btn-nav{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+transition background-color: 0.2s, border 0.2s, color: 0.2;;;;
+ border: 1px solid;
+ color: white;
+}
+.btn-btn-nav:hover{
+    background-color: red;
+}
+.btn-btn-full:hover{
+    background-color: red;
+}
+.main-nav li a:hover{
+    background-color: red;
+}
+.social-menu{
+    font-size: 200%;
+}
+
+@media only screen and (max-width: 1180px){
+    .main-content-header{
+        width: 100%;
+        padding: 0.2%;
+    }
+}
+@media only screen and (max-width: 998px){
+    h1{font-size: 200%;}
+}
+@media only screen and (max-width: 768px){
+    h1{font-size: 180%;}
+
+    .main-nav{display: none;}
+}
+
+body {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+
+}
+.main-const{
+    width: 1180px;
+    position: absolute;
+    top: 70%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    font-size:60%;
+}
+
+
+.ball{
+    padding-bottom: 10px;
+    font-size:150%;
+}
+.main-nav-s{
+    float: right;
+    margin-top: 40px;
+}
+.main-nav-s li{
+    display: inline-block;
+    list-style: bold;
+    margin-left: 40px;
+    background-color: black;
+}
+.main-nav-s li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 150%;
+    font-weight: 100px;
+     transition: width 2s linear 1s;
+}
+
+.youtube-screen{
+    padding-left: 40px;
+}
+
+.roblox-screen{
+    padding-left: 200px;
+    border-image: 100px;
+}
+
+.roblox-screen2{
+    padding-left: 200px;
+}
+
+@media only screen and (max-width: 1180px){
+    .main-content-header{
+        width: 100%;
+        padding: 0.2%;
+    }
+}
+@media only screen and (max-width: 998px){
+    h1{font-size: 200%;}
+}
+@media only screen and (max-width: 768px){
+    h1{font-size: 180%;}
