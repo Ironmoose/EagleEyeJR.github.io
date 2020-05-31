@@ -180,17 +180,12 @@ body {
      transition: width 2s linear 1s;
 }
 
-.youtube-screen{
-    padding-left: 40px;
+.roblox-screen {
+    width:100%;
 }
 
-.roblox-screen{
-    padding-left: 200px;
-    border-image: 100px;
-}
-
-.roblox-screen2{
-    padding-left: 200px;
+.youtube-screen {
+    width: 100%;
 }
 
 @media only screen and (max-width: 1180px){
